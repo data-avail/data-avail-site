@@ -6,9 +6,11 @@
 <link rel="import" href="../../bower_components/core-icon-button/core-icon-button.html">
 <link rel="import" href="../../bower_components/core-toolbar/core-toolbar.html">
 <link rel="import" href="../../bower_components/core-menu/core-submenu.html">
-<link rel="import" href="../../bower_components/core-icons/core-icons.html">
 <link rel="import" href="../../bower_components/core-icon/core-icon.html">
-<link rel="import" href="../../bower_components/core-animated-pages/core-animated-pages.html">
+<link rel="import" href="../../bower_components/core-icons/core-icons.html">
+<link rel="import" href="../da-site-icons/da-site-icons.html">
+
+
 <polymer-element name="da-site-element">
   <template>
     <link rel="stylesheet" href="da-site-element.css">
@@ -20,8 +22,9 @@
           <core-item id="core_item1" icon="stars" label="Ride Better" horizontal center layout active></core-item>
         </core-menu>
       </core-header-panel>
-      <div id="div" tool horizontal layout>Data - Avail</div>
-      <core-icon icon="terrain" id="core_icon"></core-icon>
+      <div id="div" tool >Data - Avail</div>
+      <core-icon icon="da-site-icons:surfer" size="900"></core-icon>
+      <!--<core-icon icon="da-site-icons:fancy-circles"></core-icon>-->
     </core-scaffold>
   </template>
   <script>
